@@ -1,0 +1,141 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #1D1D23;
+    color: white;
+}
+
+#container, .timer-container{
+    height: 10vh;
+    width : 850px ;
+    background-color: #34344A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+#container input {
+background-color: transparent;
+border: none;
+margin-right: 10px;
+}
+::-webkit-input-placeholder{ 
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+#startTimer{
+    background: #F0F757;
+    border: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px  40px;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 5vh;
+    margin-top: 20px;
+}
+
+#startTimer:hover{
+    background:#ced379;
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 140px;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    height: 3vh;
+    width: 15vw;
+    margin: auto;
+    padding: 5px  40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.timer {
+    font-size: 24px;
+}
+.time-up{
+    background-color: #F0F757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    margin: auto;
+    margin-top: 20px;
+    padding-right: 30px;
+    border-radius: 20px;
+    height: 15vh;
+    font-weight: bold;
+}
+
+.timer-ended {
+    color: black;
+    font-size: 30px;
+}
+
+.time-left {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-right: -350px;
+}
+
+.stop-button {
+    background-color: #F0F757;
+    color: black;
+}
+
+.stop-button:hover {
+    background-color: #ced379;
+}
+
+.delete-button {
+    background-color: #F0F757;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #ced379;
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
